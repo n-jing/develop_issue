@@ -10,8 +10,7 @@ int main(int argc, char ** argv)
   Eigen::SparseMatrix<double, Eigen::RowMajor> A;
   Eigen::SimplicialLDLT<Eigen::SparseMatrix<double, Eigen::RowMajor>> solver;
   solver.compute(A);
-  if (solver != Eigen::Success)
-    getchar();
+
   Eigen::Matrix<double, -1, 1> b;
   Eigen::Matrix<double, -1, 1> x;
   x = solver.solve(b);
