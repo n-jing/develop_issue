@@ -1,7 +1,7 @@
 # develop_issue
 issues in development
 
-## compile error when SimplicialLDLT solve RowMajor SparseMatrix with eigen3.3.7. However, SimplicialLDLT works on ColMajor SparseMatrix well.
+## compile error when SimplicialLDLT and SimplicialLLT solve RowMajor SparseMatrix with eigen3.3.7. However, SimplicialLDLT works on ColMajor SparseMatrix well.
 ```cpp
 #include<Eigen/SparseCholesky>
 
