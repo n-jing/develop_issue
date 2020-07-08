@@ -18,4 +18,5 @@ int main(int argc, char ** argv)
   return 0;
 }
 ```
-## cg method [cg](https://zhuanlan.zhihu.com/p/98642663)
+## numeric method
+1. cg method [cg](https://zhuanlan.zhihu.com/p/98642663)
