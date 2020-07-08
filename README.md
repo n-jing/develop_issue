@@ -18,3 +18,4 @@ int main(int argc, char ** argv)
   return 0;
 }
 ```
+## cg method [cg](https://zhuanlan.zhihu.com/p/98642663)
